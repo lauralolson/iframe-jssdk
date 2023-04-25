@@ -5,7 +5,7 @@ export default defineEventHandler(async (event) => {
     mid: config.public.mid,
     developerKey: config.developerKey,
     password: config.password,
-  });
+  }); 
   const submitPaymentBody = JSON.stringify({
     token: data.cardToken,
     amount: data.amount,
