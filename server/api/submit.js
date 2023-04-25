@@ -17,7 +17,7 @@ export default defineEventHandler(async (event) => {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
-      "Content-Length": `${body.length}`,
+      "Content-Length": `${authBody.length}`,
       "x-nabwss-appsource": config.xNabwssAppsource,
     },
     body: authBody,
