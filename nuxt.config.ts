@@ -1,11 +1,11 @@
 export default defineNuxtConfig({
   runtimeConfig: {
     public: {
-      mid: "3130033433717",
-      gatewayPublicKey: "8f8b86e0-db93-4e5b-b0e9-3e4ad4f1f560",
+      mid: "3130034155392",
+      gatewayPublicKey: "526bcd8cb4e1e1f79b211a7b36736c92",
     },
-    xNabwssAppsource: "pa_isv_7397761534742ndp4",
-    developerKey: "63C83025-CDF4-404D-B65E-0F2A4A8FC2CC",
-    password: "$q*A@k9Q9SuvNJM%jwAyT",
+    xNabwssAppsource: "pa-isv-df03c1783228edd4a679c23f245e8f7b",
+    developerKey: "72d8245e05f58150c8a77ed57bb27cbf",
+    password: "tGPpAzlfCef/qWhMJU31Rj53ER09p+HNJ0ZdcWDaHNxvYNJyAWpTv6rp/0wpRO719PAWiipJlmUvEmRNbetNDg==",
   },
 });

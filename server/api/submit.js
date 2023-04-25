@@ -1,10 +1,6 @@
 export default defineEventHandler(async (event) => {
   const config = useRuntimeConfig();
   const data = await readBody(event);
-  var cors = require('cors')
-  use(cors({
-    origin: '*',
-  }))
   
   const authBody = JSON.stringify({
     mid: config.public.mid,
