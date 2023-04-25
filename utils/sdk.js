@@ -37,7 +37,7 @@ const getToken = async (amount) => {
     month: '06',
     year: '2030',    
   }); 
- 
+  
   const cardToken = PayNowSdk().getCardToken();
 
   console.log('cardToken =', cardToken);
