@@ -1,25 +1,18 @@
-# Nuxt 3 Minimal Starter
+# Getting Started with Embedded Payments in a VueJS App
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+This is a Nuxt 3/Vue 3 app that demonstrates integration of an embedded payment system through [Payments Hub Developers by NAB iFrame JavaScript SDK](https://developer.paymentshub.com/products/card-not-present/iframe-javascript-sdk).
 
 ## Setup
 
-Make sure to install the dependencies:
+Install the dependencies:
 
 ```bash
-# yarn
-yarn install
-
-# npm
 npm install
-
-# pnpm
-pnpm install
 ```
 
 ## Development Server
 
-Start the development server on `http://localhost:3000`
+Start the development server on http://localhost:3000
 
 ```bash
 npm run dev
@@ -38,5 +31,3 @@ Locally preview production build:
 ```bash
 npm run preview
 ```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
