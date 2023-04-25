@@ -1,7 +1,7 @@
 export default defineNuxtConfig({
   runtimeConfig: {
     public: {
-      mid: "3130034155392",
+      mid: "3130033433717",
       gatewayPublicKey: "8f8b86e0-db93-4e5b-b0e9-3e4ad4f1f560",
     },
     xNabwssAppsource: "pa-isv-df03c1783228edd4a679c23f245e8f7b",
