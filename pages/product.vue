@@ -2,7 +2,7 @@
 import PaymentsModal from "@/components/payment-modal.vue";
 
 const paymentModalOpened = ref(false);
-const amount = 0.01;
+const amount = '0.01';
 
 useHead({
   title: "Awesome Vue Sticker",
