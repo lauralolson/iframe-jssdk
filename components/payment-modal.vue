@@ -30,11 +30,6 @@
             <label>Zip:</label>
             <div id="zipFirst5" class="form-field"></div>
           </div>
-
-          <div class="vertical">
-            <label>Zip+4:</label>
-            <div id="zipPlus4" class="form-field"></div>
-          </div>
         </div>
         <input type="hidden" id="card-token" />
         <input

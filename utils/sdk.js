@@ -5,7 +5,6 @@ const initializeSDK = (mid, gateway_public_key) => {
     cvvFieldId: "card-cvv",
     addressFieldId: "address",
     zipFieldId: "zipFirst5",
-    zipPlusFourFieldId: "zipPlus4",
   };
 
   PayNowSdk().on("ready", () => {
@@ -15,13 +14,11 @@ const initializeSDK = (mid, gateway_public_key) => {
     const cvvStyling = fieldStyling;
     const streetStyling = fieldStyling;
     const zipStyling = fieldStyling;
-    const zip4Styling = fieldStyling;
 
     PayNowSdk().setStyle("number", numberStyling);
     PayNowSdk().setStyle("cvv", cvvStyling);
     PayNowSdk().setStyle("address", streetStyling);
     PayNowSdk().setStyle("zip", zipStyling);
-    PayNowSdk().setStyle("zipPlusFour", zip4Styling);
     PayNowSdk().setNumberFormat("prettyFormat");
   });
   PayNowSdk().init(gateway_public_key, mid, options);
@@ -34,8 +31,8 @@ const getToken = async (amount) => {
   document.getElementById("alert_message").innerHTML = "Verifying...";
 
   await PayNowSdk().addCard({
-    month: '06',
-    year: '2030',    
+    month: '03',
+    year: '2028',    
   }); 
   
   const cardToken = PayNowSdk().getCardToken();
