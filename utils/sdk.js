@@ -28,6 +28,7 @@ const initializeSDK = (mid, gateway_public_key) => {
 };
 const getToken = async (amount) => {
   const PayNowSdk = PayNow.default;
+  console.log('PayNowSdk =', PayNowSdk);
 
   document.getElementById("card-token").value = "";
   document.getElementById("alert_message").innerHTML = "Verifying...";
@@ -38,6 +39,8 @@ const getToken = async (amount) => {
   }); 
 
   const cardToken = PayNowSdk().getCardToken();
+
+  console.log('cardToken =', cardToken);
 
   if (cardToken == null) {
     document.getElementById("alert_message").innerHTML =
